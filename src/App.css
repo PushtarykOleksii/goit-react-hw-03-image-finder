@@ -1,0 +1,11 @@
+/* Стили компонента App */
+/* .app {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 24px;
+  padding-top: 20px;
+} */
+.container {
+  display: flex;
+  justify-content: center;
+}

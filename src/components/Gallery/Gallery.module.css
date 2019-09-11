@@ -1,0 +1,36 @@
+.container {
+  padding-bottom: 50px;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Стили кнопки Load more */
+.button {
+  margin: 0 auto;
+  padding: 8px 16px;
+  border-radius: 3px;
+  background-color: #3884ff;
+  transition: all 200ms ease;
+  text-align: center;
+  display: block;
+  color: #fff;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  min-width: 180px;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #1f65d6;
+}
